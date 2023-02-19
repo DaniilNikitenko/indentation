@@ -1,0 +1,37 @@
+.header {
+	padding-bottom: 25px;
+}
+
+.header__top {
+	margin-bottom: 50px;
+}
+
+.page__title {
+	font-size: 60px;
+}
+
+.nav__list {
+	padding-left: 22px;
+}
+
+.item {
+	color: #02535F;
+}
+
+.item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.link {
+	text-decoration: underline;
+	color: inherit;
+}
+
+.container-bg_indent_more {
+	padding: 25px 45px;
+}
+
+.content-bg__title {
+	font-size: 44px;
+	font-weight: 700;
+}

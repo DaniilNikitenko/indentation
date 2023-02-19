@@ -1,0 +1,39 @@
+.section {
+	padding: 25px 0 25px;
+}
+
+.container-bg {
+	background: #F1F1F1;
+	border-radius: 10px;
+}
+
+.title {
+	font-weight: 900;
+	margin-bottom: 30px;
+}
+
+.figure:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.image:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.text:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.figure__figcaption:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.figcaption {
+	padding: 15px 30px;
+	color: #5E5E5E;
+}
+
+.image_position_center {
+	display: block;
+	margin: 0 auto;
+}

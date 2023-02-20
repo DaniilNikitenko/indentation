@@ -11,3 +11,14 @@
 .section__block:not(:last-child) {
 	margin-bottom: 30px;
 }
+
+.section__paragraphs-rigth {
+	max-width: 490px;
+	float: right;
+}
+
+.section__paragraphs-left {
+	max-width: 480px;
+	float: left;
+	margin-right: 40px;
+}

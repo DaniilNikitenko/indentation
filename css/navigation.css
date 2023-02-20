@@ -15,11 +15,11 @@
 	color: inherit;
 }
 
-.container-bg_indent_more {
+.wrapper-bg {
 	padding: 25px 45px;
 }
 
-.content-bg__title {
+.wrapper-bg__title {
 	font-size: 44px;
 	font-weight: 700;
 }

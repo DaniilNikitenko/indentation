@@ -33,30 +33,30 @@
 				</p>
 			</div>
 		</header>
-		<section class="section content-bg">
-			<div class="container container-bg container-bg_indent_more">
-				<h2 class="content-bg__title">Содержание</h2>
+		<section class="section">
+			<div class="container wrapper-bg">
+				<h2 class="wrapper-bg__title">Содержание</h2>
 				<nav class="nav">
 					<ol class="nav__list">
-						<li class="item"><a class="link" href="#section-1">Отступ задается от предыдущего
+						<li class="item"><a class="link" href="#rules">Отступ задается от предыдущего
 								элемента к следующему</a></li>
-						<li class="item"><a class="link" href="#section-2">Отступ задается последнему
+						<li class="item"><a class="link" href="#dom-tree">Отступ задается последнему
 								возможному элементу в DOM-дереве</a></li>
-						<li class="item"><a class="link" href="#section-3">Для последнего элемента группы
+						<li class="item"><a class="link" href="#last-child">Для последнего элемента группы
 								отступ обнуляется</a></li>
 					</ol>
 				</nav>
 			</div>
 		</section>
-		<section class="section" id="section-1">
+		<section class="section" id="rules">
 			<div class="container">
 				<h2 class="section__title title">
 					Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева
 					направо.
 				</h2>
 				<div class="section__block">
-					<img class="section__image-left" src="img/section1/01.jpg" alt="Пример использования margin">
-					<div class="section__paragraphs">
+					<img class="section__image" src="img/section1/01.jpg" alt="Пример использования margin">
+					<div class="section__paragraphs" style="max-width: 490px; float: right;">
 						<p class="text"><strong>ВАЖНО</strong>: <i>margin</i> всегда задают от предыдущего элемента к
 							следующему.</p>
 						<p class="text">Свойство <i>margin</i> необходимо только для того, чтобы отодвинуть своего
@@ -70,8 +70,8 @@
 					</div>
 				</div>
 				<div class="section__block">
-					<img class="sectiom__image-right" src="img/section1/02.jpg" alt="Пример использования padding">
-					<div class="section__paragraphs">
+					<img class="section__image" src="img/section1/02.jpg" alt="Пример использования padding">
+					<div class="section__paragraphs" style="max-width: 480px; float: left; margin-right: 40px;">
 						<p class="text">Отступ внутри блока сверху или слева реализуется через <i>padding-top</i> и
 							<i>padding-left</i> родителя.
 						</p>
@@ -83,7 +83,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="section" id="section-2">
+		<section class="section" id="dom-tree">
 			<div class="container">
 				<h2 class="section__title title">Отступ задается последнему возможному элементу в DOM-дереве</h2>
 				<p class="text">Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера,
@@ -91,13 +91,13 @@
 				<img class="image" src="img/section2/01.jpg" alt="Пример списка HTML">
 				<img class="image image_position_center" src="img/section2/02.jpg" alt="Список">
 				<p class="text">Отступ делают за счёт соседних элементов, а не дочерних:</p>
-				<figure class="figure">
+				<figure class="figure figure_style_border">
 					<img class="figure__image" src="img/section2/03.jpg"
 						alt="Пример отступа за счет соседних элементов">
-					<figcaption class="figcaption">
-						<p class="text"><strong>ВАЖНО:</strong> здесь <i>.list-item</i> —
-							последний возможный элемент в котором мы задаём
-							отступ, чтобы разделить списки.</p>
+					<figcaption class="figcaption text">
+						<strong>ВАЖНО:</strong> здесь <i>.list-item</i> —
+						последний возможный элемент в котором мы задаём
+						отступ, чтобы разделить списки.
 					</figcaption>
 				</figure>
 
@@ -123,7 +123,7 @@
 					выводе вёрстки с нестандартной структурой отступов.</p>
 			</div>
 		</section>
-		<section class="section" id="section-3">
+		<section class="section" id="last-child">
 			<div class="container">
 				<h2 class="section__title title">Для последнего элемента группы отступ всегда обнуляется</h2>
 				<p class="text">Для наглядности возьмём наш предыдущий пример с рецептами</p>
@@ -166,9 +166,9 @@
 				</figure>
 			</div>
 		</section>
-		<footer class="footer content-bg">
-			<div class="container container-bg container-bg_indent_less">
-				<h2 class="content-bg__title footer-title">Подытожим:</h2>
+		<footer class="footer">
+			<div class="container wrapper-bg">
+				<h2 class="wrapper-bg__title footer-title">Подытожим:</h2>
 				<ul class="footer__list">
 					<li class="footer__item">— отступы задаём от предыдущего элемента к следующему</li>
 					<li class="footer__item">— используем только margin-right и margin-bottom</li>

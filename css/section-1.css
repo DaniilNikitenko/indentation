@@ -2,10 +2,7 @@
 	font-size: 36px;
 }
 
-.section__image-left {
-	float: left;
-	margin-right: 30px;
-}
+
 
 .section__block {
 	display: flow-root;
@@ -13,9 +10,4 @@
 
 .section__block:not(:last-child) {
 	margin-bottom: 30px;
-}
-
-.sectiom__image-right {
-	float: right;
-	padding-left: 40px;
 }
